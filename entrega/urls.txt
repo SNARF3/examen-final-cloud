@@ -1,4 +1,4 @@
-Repo GitHub:
-S3 web (Lab 2):
-API Gateway base (Lab 3):
+Repo GitHub: https://github.com/SNARF3/examen-final-cloud
+S3 web (Lab 2): http://mundial-web-molloramirez.s3-website.us-east-2.amazonaws.com/
+API Gateway base (Lab 3): https://280nu5mu64.execute-api.us-east-2.amazonaws.com/Examen-cloud
 Kubernetes puerto 30080 (Lab 4):

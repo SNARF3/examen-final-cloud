@@ -1,10 +1,14 @@
 # Pegar aquí la salida de los 3 curl del Lab 3
 
 ## GET /poleras
-
+marvinmolloramirez@MacBook-Air-de-Marvin mundial-cloud % curl https://280nu5mu64.execute-api.us-east-2.amazonaws.com/Examen-cloud/poleras
+{"poleras":[{"archivo":"polera brasil.jpeg","url":"https://mundial-poleras-molloramirez.s3.amazonaws.com/poleras/polera brasil.jpeg"},{"archivo":"polera_argentina.jpeg","url":"https://mundial-poleras-molloramirez.s3.amazonaws.com/poleras/polera_argentina.jpeg"}],"total":2}%    
 
 ## GET /partidos
-
+marvinmolloramirez@MacBook-Air-de-Marvin mundial-cloud % curl https://280nu5mu64.execute-api.us-east-2.amazonaws.com/Examen-cloud/partidos
+{"partidos":[{"local":"México","visitante":"Sudáfrica","estadio":"Estadio Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"},{"local":"Brasil","visitante":"Marruecos","estadio":"MetLife Stadium","id":"partido-002","grupo":"B","fecha":"2026-06-12"},{"local":"Argentina","visitante":"Polonia","estadio":"Hard Rock Stadium","id":"partido-003","grupo":"C","fecha":"2026-06-13"},{"local":"España","visitante":"Japón","estadio":"SoFi Stadium","id":"partido-004","grupo":"D","fecha":"2026-06-14"}],"total":4}%                                                                                                                                                    
 
 ## GET /partidos/partido-001
 
+marvinmolloramirez@MacBook-Air-de-Marvin mundial-cloud % curl https://280nu5mu64.execute-api.us-east-2.amazonaws.com/Examen-cloud/partidos/partido-001
+{"local":"México","visitante":"Sudáfrica","estadio":"Estadio Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"}% 

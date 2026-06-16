@@ -1,4 +1,8 @@
 Repo GitHub: https://github.com/SNARF3/examen-final-cloud
 S3 web (Lab 2): http://mundial-web-molloramirez.s3-website.us-east-2.amazonaws.com/
 API Gateway base (Lab 3): https://280nu5mu64.execute-api.us-east-2.amazonaws.com/Examen-cloud
-Kubernetes puerto 30080 (Lab 4):
+Kubernetes puerto 30080 (Lab 4): http://127.0.0.1:55378/
+
+// Importante: Se usó minikube service para exponer la ruta del pod mediante un tunnel,
+// permitiendo visualizarlo en el navegador ya que en Mac con driver Docker
+// los NodePorts no son accesibles directamente por IP.
